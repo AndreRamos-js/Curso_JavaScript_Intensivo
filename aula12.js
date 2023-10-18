@@ -15,7 +15,7 @@ console.log('n3: ' + n3)
 const objs1 = document.getElementsByTagName('div')
 const objs2 = [...document.getElementsByTagName('div')]
 
-objs2.forEach(element => { // Dessa forma, como o objs2 fo espalhado com spread, a função forEach irá retornar os valores de objs2
+objs2.forEach(element => {// Dessa forma, como o objs2 fo espalhado com spread, a função forEach irá retornar os elementos de objs2
     console.log(element)
     });
 
